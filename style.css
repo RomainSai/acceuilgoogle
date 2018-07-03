@@ -2,7 +2,7 @@ body {
 	background-color: #fff;
 	font-family: Arial, sans-serif;
 	font-size: 13px;
-	margin: 20px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
 }
 
 
@@ -24,13 +24,23 @@ ul {
  	padding: 0px;
 }
 
-.ul-menu {
+/*.ul-menu {
 	padding: 0px 20px 0px 20px;
 }
+*/
 
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	padding: 15px;
+	align-items: center;
+}
 .menu a {
 	color: rgba(0, 0, 0, 0.87);
+}
 
+.gmail, .images, .googleapps, .sign-in {
+	padding: 10px 15px;
 }
 
 .menu a:hover {
@@ -42,10 +52,15 @@ a{
 	text-decoration: none;
 }
 
-.sign-in {
+.sign-in{
 	background-color: #4387fd;
 	border: 1px solid #4285f4;
 	font-weight: bold;
+	border-radius: 2px;
+}
+
+.sign-in a {
+		color: #fff;
 }
 
 .account a {
@@ -61,6 +76,10 @@ a{
 	display: block;
 	height: 233px;
 	margin-top:
+}
+
+img {
+	height: auto;
 }
 
 #search-form {
