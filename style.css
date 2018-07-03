@@ -1,0 +1,11 @@
+li {
+	padding: 5px;
+	font-size: 1em;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+ 	justify-content: flex-end;
+}
