@@ -1,6 +1,10 @@
+body {
+	background-color: #fff;
+}
+
 li {
-	padding: 5px;
 	font-size: 1em;
+	padding: 0px 5px 0px 5px;
 }
 
 ul {
@@ -8,6 +12,12 @@ ul {
 	display: flex;
 	flex-wrap: wrap;
  	justify-content: flex-end;
+ 	margin: 0px;
+ 	padding: 0px;
+}
+
+.ul-menu {
+	padding: 5px;
 }
 
 .main {
@@ -19,3 +29,22 @@ ul {
 	/*text-align: center;*/
 	display: block;
 }
+
+.bottom-menu {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid grey;
+	line-height: 40px;
+}
+
+.country {
+	border-top: 1px solid grey;
+	line-height: 40px;
+}
+
+footer {
+	background-color: #F2F2F2;
+
+}
+
+
