@@ -1,6 +1,6 @@
 Projet THP réalisation page Google
-Réalisé par Christophe Leray
-En pair learning avec 
-
+Equipe:
+Christophe Leray
+Romain Saillour
 
 Lien du projet: 
